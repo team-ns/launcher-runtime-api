@@ -1,0 +1,25 @@
+{
+  "name": "nslauncher-runtime-api",
+  "version": "0.0.1",
+  "description": "API for NSLauncher Runtime",
+  "main": "./src/index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-ns/launcher-runtime-api"
+  },
+  "bugs": {
+    "url": "https://github.com/team-ns/launcher-runtime-api/issues"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "publish": "npm publish"
+  },
+  "author": "TeamNS",
+  "license": "MPL2.0",
+  "devDependencies": {
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
